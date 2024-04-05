@@ -1,0 +1,40 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card-container {
+  background-image: linear-gradient(to bottom, #ff6e7f, #bfe9ff);
+  padding: 25px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.heading {
+  color: #0f172a;
+  font-size: 60px;
+  font-family: 'Roboto';
+}
+
+.description {
+  color: #334155;
+  font-size: 30px;
+  font-family: 'Roboto';
+}
+
+.instruction {
+  color: #1e293b;
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+
+.knob {
+  width: 120px;
+  height: 40px;
+  border-radius: 8px;
+  background-color: #ffffff;
+}
